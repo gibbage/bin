@@ -8,5 +8,5 @@ Sets your Gnome wallpaper to a randomly chosen jpg file from the supplied direct
 
 Add a crontab entry to rotate every 10 mins:
 
-   */10 * * * * $HOME/bin/wallpaper-rotate.zsh $HOME/Pictures/wallpaper/rotation &>>/tmp/wallpaper-rotate.log
+    */10 * * * * $HOME/bin/wallpaper-rotate.zsh $HOME/Pictures/wallpaper/rotation &>>/tmp/wallpaper-rotate.log
 
